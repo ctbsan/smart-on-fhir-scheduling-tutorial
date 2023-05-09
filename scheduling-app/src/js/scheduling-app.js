@@ -88,7 +88,7 @@ function clearUI() {
   $('#appointment').html('');
   $('#appointment-holder-row').hide();
   $('#patient-search-create-row').hide();
-}
+};
 
 $('#clear-appointment').on('click', function(e) {
   $('#appointment').html('');
@@ -145,4 +145,4 @@ function renderAppointment(appointmentLocation) {
   $('#appointment').html('<p>Created Appointment ' + appointmentLocation.match(/\d+$/)[0] + '</p>');
   $('#appointment-holder-row').show();
 }
-;
+
